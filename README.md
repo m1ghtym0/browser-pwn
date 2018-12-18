@@ -88,3 +88,15 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 
 
 [GitHub](https://github.com/Microsoft/ChakraCore)
+
+
+## Resources
+
+* Saelo's phrack article on [Attacking JavaScript-Engines](http://www.phrack.org/papers/attacking_javascript_engines.html)
+
+
+## Challenges
+
+* 33c3 Feuerfuchs
+    *   [Sources](https://github.com/saelo/feuerfuchs)
+    *   [WrteUp](https://bruce30262.github.io/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/)
