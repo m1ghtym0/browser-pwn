@@ -1,13 +1,13 @@
 Browser Pwning Nexus
 ===
 
-The exist 4 Major Browsers:
+The world of Browsers is dominated by 4 major players:
 *   Chromium/Chrome
 *   Firefox
 *   Safari
 *   Edge
 
-The core-part for Browser-Exploitation is their Rendering-Engine:
+The core-part for Browser-Exploitation is their particular Rendering-Engine:
 *   Chromium/Chrome:
     *   Blink
 *   Firefox
