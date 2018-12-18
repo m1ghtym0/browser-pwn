@@ -71,6 +71,8 @@ The JavaScript-Interpreter of Webkit is JavaScriptCore (JSC).
 
 [Source](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore)
 
+Introduction to Webkit's JavaScript JIT Optimizations: https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/
+
 
 
 
