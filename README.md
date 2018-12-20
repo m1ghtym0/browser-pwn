@@ -100,7 +100,7 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 * Saelo's phrack article on [Attacking JavaScript-Engines](http://www.phrack.org/papers/attacking_javascript_engines.html)
 * [Awesome-Browser-Exploitation](https://github.com/Escapingbug/awesome-browser-exploit)
 * [Attacking WebKit applications (Slides)](https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf)
-* Saelo JIT-Talk BlackHat 2018
+* Saelo's JIT-Talk BlackHat 2018
     * [Video](https://youtu.be/emt1yf2Fg9g)
     * [Slides](https://saelo.github.io/presentations/bits_of_launchd.pdf)
 
@@ -136,3 +136,4 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 
 * [Types&Values](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-data-types-and-values)
 * [Objects](http://www.ecma-international.org/ecma-262/6.0/#sec-objects)
+* [Objec-Properties](https://tc39.github.io/ecma262/#sec-property-attributes)
