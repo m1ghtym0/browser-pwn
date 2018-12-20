@@ -27,7 +27,7 @@ The core-part for Browser-Exploitation is their particular Rendering-Engine:
 
 [What is Chromium? (DE)](https://www.heise.de/newsticker/meldung/Chrome-und-Chromium-Was-sind-eigentlich-die-Unterschiede-4245456.html)
 
-The JavaScript-Interpreter of Blink is V8.
+The JavaScript-Engine of Blink is V8.
 
 ### V8
 
@@ -45,7 +45,7 @@ The JavaScript-Interpreter of Blink is V8.
 [GitHub](https://github.com/mozilla/gecko-dev)
 
 
-The JavaScript-Interpreter of Gecko is Spidermonkey.
+The JavaScript-Engine of Gecko is Spidermonkey.
 
 ### Spidermonkey
 
@@ -63,7 +63,7 @@ The JavaScript-Interpreter of Gecko is Spidermonkey.
 [GitHub](https://github.com/WebKit/webkit)
 
 
-The JavaScript-Interpreter of Webkit is JavaScriptCore (JSC).
+The JavaScript-Engine of Webkit is JavaScriptCore (JSC).
 
 ### JavaScriptCore
 
@@ -85,8 +85,8 @@ Introduction to Webkit's JavaScript JIT Optimizations: https://webkit.org/blog/3
 [GitHub](https://github.com/MicrosoftEdge)
 
 
-Since Edge switch to Blink and the Chromium Project as its Rendering-Engine, Edge is using v8 for its JavaScript-Interpreter as well.
-Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the ChakraCore JavaScript-Interpreter.
+Since Edge switch to Blink and the Chromium Project as its Rendering-Engine, Edge is using v8 for its JavaScript-Engine as well.
+Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the ChakraCore JavaScript-Engine.
 
 ## ChakraCore
 
@@ -96,6 +96,7 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 
 ## Resources
 
+* [Javascript Engine Fundamentals](https://mathiasbynens.be/notes/shapes-ics)
 * Saelo's phrack article on [Attacking JavaScript-Engines](http://www.phrack.org/papers/attacking_javascript_engines.html)
 * [Awesome-Browser-Exploitation](https://github.com/Escapingbug/awesome-browser-exploit)
 * [Attacking WebKit applications (Slides)](https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf)
