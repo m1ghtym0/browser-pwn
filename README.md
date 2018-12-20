@@ -106,14 +106,22 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 
 ## CTF-Challenges
 
-* (Spidermonkey) 33c3 Feuerfuchs
-    *   [Sources](https://github.com/saelo/feuerfuchs)
-    *   [WrteUp](https://bruce30262.github.io/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/)
-* (v8) 34c3 v9
-    *   [Sources](https://github.com/saelo/v9)
-    *   [WriteUp](https://gist.github.com/itsZN/9ae6417129c6658130a898cdaba8d76c) (Exploit-Script)
-* (ChakraCore) Plaid 2017 chakrazy
-    *   [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/) 
+* Spidermonkey
+    * 33c3: Feuerfuchs
+        *   [Sources](https://github.com/saelo/feuerfuchs)
+        *   [WriteUp](https://bruce30262.github.io/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/)
+    *   Blaze 2018: blazefox
+        *   [Sources](https://ctftime.org/task/6000)
+        *   [WriteUp](https://devcraft.io/2018/04/27/blazefox-blaze-ctf-2018.html)
+        *   [WriteUp](https://gist.github.com/niklasb/4bddc9e8f32c3bd277ed26d66d488834) (Exploit-Script)
+        *   [WriteUp](https://github.com/Jinmo/ctfs/blob/master/2018/blaze/pwn/blazefox.html) (Exploit-SCript)
+* v8
+    * 34c3: v9
+        *   [Sources](https://github.com/saelo/v9)
+        *   [WriteUp](https://gist.github.com/itsZN/9ae6417129c6658130a898cdaba8d76c) (Exploit-Script)
+* ChakraCore
+    * Plaid 2017: chakrazy
+        *   [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
 
 ## RealWorld Write-Ups:
 
