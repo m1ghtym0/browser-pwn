@@ -52,7 +52,7 @@ The JavaScript-Engine of Blink is V8.
 [Project](https://v8.dev/) |
 [GitHub](https://github.com/v8/v8) |
 [Source](https://cs.chromium.org/chromium/src/v8/src/) |
-[Build](https://v8.dev/docs/build)
+[How2Build](https://v8.dev/docs/build)
 
 
 Build (Ubuntu 18.04):
@@ -94,7 +94,7 @@ The JavaScript-Engine of Gecko is Spidermonkey.
 
 [Project](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey) |
 [Source](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code) |
-[Build](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Build_Documentation)
+[How2Build](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Build_Documentation)
 
 Build (Ubuntu 18.04):
 
@@ -167,7 +167,7 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 ### ChakraCore
 
 [GitHub](https://github.com/Microsoft/ChakraCore) |
-[Build](https://github.com/Microsoft/ChakraCore/wiki/Building-ChakraCore#linux)
+[How2Build](https://github.com/Microsoft/ChakraCore/wiki/Building-ChakraCore#linux)
 
 Build (Ubuntu 18.04):
 
