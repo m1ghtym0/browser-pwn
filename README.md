@@ -40,7 +40,7 @@ The JavaScript-Engine of Blink is V8.
 [Build](https://v8.dev/docs/build)
 
 
-Build:
+Build (Ubuntu 18.04):
 
 ```
 $ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
@@ -52,6 +52,7 @@ $ git pull
 $ gclient sync
 $ ./build/install-build-deps.sh
 $ tools/dev/gm.py x64.release
+$ out/x64.release/d8
 ```
 
 ### TurboFan (V8-JIT Compiler)
@@ -81,19 +82,21 @@ The JavaScript-Engine of Gecko is Spidermonkey.
 
 [Build](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Build_Documentation)
 
-Build:
+Build (Ubuntu 18.04):
 
 ```
+$ wget -O bootstrap.py https://hg.mozilla.org/mozilla-central/raw-file/default/python/mozboot/bin/bootstrap.py && python bootstrap.py
 $ git clone https://github.com/mozilla/gecko-dev.git && cd gecko-dev
 $ cd js/src
-$ autoconf-2.13
+$ autoconf2.13
 
 # This name should end with "_DBG.OBJ" to make the version control system ignore it.
 $ mkdir build_DBG.OBJ
 $ cd build_DBG.OBJ
 $ ../configure --enable-debug --disable-optimize
 # Use "mozmake" on Windows
-$ make
+$ make -j 6
+$ js/src/js
 ```
 
 ### IonMonkey (Spidermonkey-JIT Compiler)
@@ -121,12 +124,14 @@ The JavaScript-Engine of Webkit is JavaScriptCore (JSC).
 [Source](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore)
 
 
-Build:
+Build (Ubuntu 18.04):
 
 ```
 $ sudo apt install libicu-dev python ruby bison flex cmake build-essential ninja-build git gperf
 $ git clone git://git.webkit.org/WebKit.git && cd WebKit
 $ Tools/Scripts/build-webkit --jsc-only
+$ cd WebKitBuild/Release
+$ LD_LIBRARY_PATH=./lib bin/jsc
 ```
 
 ### FTL JIT (WebKit-JIT Compiler)
@@ -162,7 +167,8 @@ Build (Ubuntu 16.04):
 # To build ChakraCore on Linux: (requires Clang 3.7+ and Python 2)
 $ apt-get install -y git build-essential cmake clang libicu-dev libunwind8-dev
 $ git clone https://github.com/Microsoft/ChakraCore && cd ChakraCore
-$ ./build.sh --debug
+$ ./build.sh --cc=/usr/bin/clang-3.9 --cxx=/usr/bin/clang++-3.9 --arch=amd64 --debug
+$ out/Debug/ch
 ```
 
 ## Resources
