@@ -2,20 +2,14 @@ Browser-Pwning Nexus
 ===
 
 The world of Browsers is dominated by 4 major players:
-*   Chromium/Chrome
-*   Firefox
-*   Safari
-*   Edge
+*   Chromium/Chrome (Blink-Engine)
+*   Firefox (Gecko-Engine)
+*   Safari (WebKit-Engine)
+*   Edge (Blink-Engine (former EdgeHTML-Engine)
 
-The focus for this nexus on Browser-Exploitation is their particular Rendering-Engine:
-*   Chromium/Chrome:
-    *   Blink
-*   Firefox
-    *   Gecko   
-*   Safari
-    *   WebKit  
-*   Edge
-    *   Blink (former EdgeHTML)
+The following is split into two parts:
+-  Information that helps to understand their architecture and implementation and how to build them from sources
+-  Information that helps finding their calculator popping feature
 
 
 #  Table of Contents
@@ -167,7 +161,7 @@ Articles:
 [GitHub](https://github.com/MicrosoftEdge)
 
 
-Since Edge switch to Blink and the Chromium Project as its Rendering-Engine, Edge is using v8 for its JavaScript-Engine as well.
+Since Edge switched to Blink and the Chromium Project as its Rendering-Engine, Edge is using v8.
 Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the ChakraCore JavaScript-Engine.
 
 ### ChakraCore
