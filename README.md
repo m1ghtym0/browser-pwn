@@ -1,4 +1,4 @@
-Browser Pwning Nexus
+Browser-Pwning Nexus
 ===
 
 The world of Browsers is dominated by 4 major players:
@@ -7,7 +7,7 @@ The world of Browsers is dominated by 4 major players:
 *   Safari
 *   Edge
 
-The core-part for Browser-Exploitation is their particular Rendering-Engine:
+The focus for this nexus on Browser-Exploitation is their particular Rendering-Engine:
 *   Chromium/Chrome:
     *   Blink
 *   Firefox
@@ -35,6 +35,23 @@ The JavaScript-Engine of Blink is V8.
 
 [GitHub](https://github.com/v8/v8)
 
+[Build](https://v8.dev/docs/build)
+
+
+Build:
+
+```
+$ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+$ export PATH=$PATH:./depot_tools
+$ gclient
+$ mkdir ./v8 && cd ./v8
+$ fetch v8
+$ git pull
+$ gclient sync
+$ ./build/install-build-deps.sh
+$ tools/dev/gm.py x64.release
+```
+
 
 
 
@@ -53,7 +70,22 @@ The JavaScript-Engine of Gecko is Spidermonkey.
 
 [Source](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code)
 
+[Build](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Build_Documentation)
 
+Build:
+
+```
+$ git clone https://github.com/mozilla/gecko-dev.git && cd gecko-dev
+$ cd js/src
+$ autoconf-2.13
+
+# This name should end with "_DBG.OBJ" to make the version control system ignore it.
+$ mkdir build_DBG.OBJ
+$ cd build_DBG.OBJ
+$ ../configure --enable-debug --disable-optimize
+# Use "mozmake" on Windows
+$ make
+```
 
 
 ## Safari (Webkit)
@@ -75,6 +107,14 @@ The JavaScript-Engine of Webkit is JavaScriptCore (JSC).
 
 Introduction to Webkit's JavaScript JIT Optimizations: https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/
 
+Build:
+
+```
+$ sudo apt install libicu-dev python ruby bison flex cmake build-essential ninja-build git gperf
+$ git clone git://git.webkit.org/WebKit.git && cd WebKit
+$ Tools/Scripts/build-webkit --jsc-only
+```
+
 
 
 
@@ -93,6 +133,15 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 
 [GitHub](https://github.com/Microsoft/ChakraCore)
 
+[Build](https://github.com/Microsoft/ChakraCore/wiki/Building-ChakraCore#linux)
+
+Build:
+
+```
+$ apt-get install -y git build-essential cmake clang libicu-dev libunwind8-dev
+$ git clone https://github.com/Microsoft/ChakraCore && cd ChakraCore
+$ ./build.sh --debug
+```
 
 ## Resources
 
