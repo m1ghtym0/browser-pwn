@@ -161,7 +161,7 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 
 [Build](https://github.com/Microsoft/ChakraCore/wiki/Building-ChakraCore#linux)
 
-Build (Ubuntu 16.04):
+Build (Ubuntu 18.04):
 
 ```
 # To build ChakraCore on Linux: (requires Clang 3.7+ and Python 2)
