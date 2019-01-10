@@ -171,15 +171,15 @@ $ ./build.sh --cc=/usr/bin/clang-3.9 --cxx=/usr/bin/clang++-3.9 --arch=amd64 --d
 $ out/Debug/ch
 ```
 
-## Resources
+## Presentations & Other resources
 
 * [Javascript Engine Fundamentals](https://mathiasbynens.be/notes/shapes-ics)
 * Saelo's phrack article on [Attacking JavaScript-Engines](http://www.phrack.org/papers/attacking_javascript_engines.html)
 * [Awesome-Browser-Exploitation](https://github.com/Escapingbug/awesome-browser-exploit)
 * [Attacking WebKit applications (Slides)](https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf)
-* Saelo's JIT-Talk BlackHat 2018
+*  Attacking Client-Side JIT Compilers - BlackHat 2018
     * [Video](https://youtu.be/emt1yf2Fg9g)
-    * [Slides](https://saelo.github.io/presentations/bits_of_launchd.pdf)
+    * [Slides](https://saelo.github.io/presentations/blackhat_us_18_attacking_client_side_jit_compilers.pdf)
 
 
 ## CTF-Challenges
@@ -213,7 +213,7 @@ $ out/Debug/ch
     * Plaid 2017: chakrazy
         *   [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
 
-## RealWorld Write-Ups:
+## RealWorld Exploit Write-Ups:
 
 * https://saelo.github.io/posts/firefox-script-loader-overflow.html
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
@@ -221,7 +221,7 @@ $ out/Debug/ch
 * https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/
 
  
-## JavaScript Resources
+## JavaScript (ECMAScript) Docs
 
 * [Types&Values](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-data-types-and-values)
 * [Objects](http://www.ecma-international.org/ecma-262/6.0/#sec-objects)
