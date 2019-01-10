@@ -54,6 +54,13 @@ $ ./build/install-build-deps.sh
 $ tools/dev/gm.py x64.release
 ```
 
+### TurboFan (V8-JIT Compiler)
+
+[Docs](https://v8.dev/docs/turbofan)
+
+[Blog](https://v8.dev/blog/turbofan-jit)
+
+[Turbolizer (Visualization)](https://github.com/v8/v8/tree/master/tools/turbolizer)
 
 
 
@@ -89,6 +96,12 @@ $ ../configure --enable-debug --disable-optimize
 $ make
 ```
 
+### IonMonkey (Spidermonkey-JIT Compiler)
+
+[Project](https://wiki.mozilla.org/IonMonkey)
+
+[IonGraph (Visualization](https://github.com/sstangl/iongraph)
+
 
 ## Safari (Webkit)
 
@@ -107,7 +120,6 @@ The JavaScript-Engine of Webkit is JavaScriptCore (JSC).
 
 [Source](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore)
 
-Introduction to Webkit's JavaScript JIT Optimizations: https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/
 
 Build:
 
@@ -116,6 +128,13 @@ $ sudo apt install libicu-dev python ruby bison flex cmake build-essential ninja
 $ git clone git://git.webkit.org/WebKit.git && cd WebKit
 $ Tools/Scripts/build-webkit --jsc-only
 ```
+
+### FTL JIT (WebKit-JIT Compiler)
+
+[Introduction to Webkit's JavaScript JIT Optimizations](https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/)
+
+[Introducing the B3 JIT Compiler](https://webkit.org/blog/5852/introducing-the-b3-jit-compiler/)
+
 
 
 
