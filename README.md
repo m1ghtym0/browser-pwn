@@ -35,6 +35,8 @@ The JavaScript-Engine of Blink is V8.
 
 [GitHub](https://github.com/v8/v8)
 
+[Source](https://cs.chromium.org/chromium/src/v8/src/)
+
 [Build](https://v8.dev/docs/build)
 
 
