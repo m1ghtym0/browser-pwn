@@ -194,13 +194,13 @@ $ out/Debug/ch
 
 ## Chromium Pwn
 ### CTF-Challenges
-    * 34c3: v9
-        *   [Sources](https://github.com/saelo/v9)
-        *   [WriteUp](https://gist.github.com/itsZN/9ae6417129c6658130a898cdaba8d76c) (Exploit-Script)
-    * 35c3: Krautflare
-        *   [Files](https://abiondo.me/assets/ctf/35c3/krautflare-33ce1021f2353607a9d4cc0af02b0b28.tar)
-        *   [WriteUp](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
-        *   [WriteUp](https://www.jaybosamiya.com/blog/2019/01/02/krautflare/)
+* 34c3: v9
+    *   [Sources](https://github.com/saelo/v9)
+    *   [WriteUp](https://gist.github.com/itsZN/9ae6417129c6658130a898cdaba8d76c) (Exploit-Script)
+* 35c3: Krautflare
+    *   [Files](https://abiondo.me/assets/ctf/35c3/krautflare-33ce1021f2353607a9d4cc0af02b0b28.tar)
+    *   [WriteUp](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
+    *   [WriteUp](https://www.jaybosamiya.com/blog/2019/01/02/krautflare/)
         
                 
 ### RealWorld
@@ -211,16 +211,16 @@ $ out/Debug/ch
 
 ## Firefox Pwn
 ### CTF-Challenges
-    * 33c3: Feuerfuchs
-        *   [Sources](https://github.com/saelo/feuerfuchs)
-        *   [WriteUp](https://bruce30262.github.io/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/)
-    *   Blaze 2018: blazefox
-        *   [Sources](https://ctftime.org/task/6000)
-        *   [WriteUp](https://devcraft.io/2018/04/27/blazefox-blaze-ctf-2018.html)
-        *   [WriteUp](https://gist.github.com/niklasb/4bddc9e8f32c3bd277ed26d66d488834) (Exploit-Script)
-        *   [WriteUp](https://github.com/Jinmo/ctfs/blob/master/2018/blaze/pwn/blazefox.html) (Exploit-SCript)
-    * 35c3 FunFox
-        *   [Sources](https://github.com/bkth/35c3ctf/tree/master/funfox) 
+* 33c3: Feuerfuchs
+    *   [Sources](https://github.com/saelo/feuerfuchs)
+    *   [WriteUp](https://bruce30262.github.io/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/)
+*   Blaze 2018: blazefox
+    *   [Sources](https://ctftime.org/task/6000)
+    *   [WriteUp](https://devcraft.io/2018/04/27/blazefox-blaze-ctf-2018.html)
+    *   [WriteUp](https://gist.github.com/niklasb/4bddc9e8f32c3bd277ed26d66d488834) (Exploit-Script)
+    *   [WriteUp](https://github.com/Jinmo/ctfs/blob/master/2018/blaze/pwn/blazefox.html) (Exploit-SCript)
+* 35c3 FunFox
+    *   [Sources](https://github.com/bkth/35c3ctf/tree/master/funfox) 
 ### RealWorld
 * https://saelo.github.io/posts/firefox-script-loader-overflow.html
 
@@ -228,11 +228,11 @@ $ out/Debug/ch
 
 ## Safari Pwn
 ### CTF-Challenges
-    *   RealWorldCTF 2018: Engine for Neophytes
-        *   [Files](http://mightym0.de/ctf/rwctf-2018/allForPlayers.zip)
-    *   35c3: WebKid
-        *   [Sources](https://github.com/saelo/35c3ctf/tree/master/WebKid)
-        *   [WriteUp](https://github.com/LinusHenze/35C3_Writeups/tree/master/WebKid)
+*   RealWorldCTF 2018: Engine for Neophytes
+    *   [Files](http://mightym0.de/ctf/rwctf-2018/allForPlayers.zip)
+*   35c3: WebKid
+    *   [Sources](https://github.com/saelo/35c3ctf/tree/master/WebKid)
+    *   [WriteUp](https://github.com/LinusHenze/35C3_Writeups/tree/master/WebKid)
 ### RealWorld
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
 
@@ -241,8 +241,8 @@ $ out/Debug/ch
 
 ## Edge Pwn
 ### CTF-Challenges
-    * Plaid 2017: chakrazy
-        *   [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
+* Plaid 2017: chakrazy
+    *   [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
 ### RealWorld
 
 
