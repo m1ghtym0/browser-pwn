@@ -18,25 +18,46 @@ The focus for this nexus on Browser-Exploitation is their particular Rendering-E
     *   Blink (former EdgeHTML)
 
 
+#  Table of Contents
+
+1.  Engines
+      *  [Overview](#engine-overview)
+      *  [Chromium](#chromium-blink)
+      *  [Firefox](#firefox-gecko)
+      *  [Safari](#safari-webkit)
+      *  [Edge](#edge-blinkedgehtml)
+2. Exploitation
+      *  [Overview](#exploitation-overview)
+      *  [Chromium](#chromium-pwn)
+      *  [Firefox](#firefox-pwn)
+      *  [Safari](#safari-pwn)
+      *  [Edge](#edge-pwn)
+      
+
+
+
+
+# Engines
+
+## Engine-Overview
+* [Javascript Engine Fundamentals](https://mathiasbynens.be/notes/shapes-ics)
+
 
 ## Chromium (Blink)
 
-[Project](https://www.chromium.org/blink)
-
+[Project](https://www.chromium.org/blink) |
 [GitHub](https://github.com/chromium/chromium)
 
-[What is Chromium? (DE)](https://www.heise.de/newsticker/meldung/Chrome-und-Chromium-Was-sind-eigentlich-die-Unterschiede-4245456.html)
+Articles:
+*  [What is Chromium? (DE)](https://www.heise.de/newsticker/meldung/Chrome-und-Chromium-Was-sind-eigentlich-die-Unterschiede-4245456.html)
 
 The JavaScript-Engine of Blink is V8.
 
 ### V8
 
-[Project](https://v8.dev/)
-
-[GitHub](https://github.com/v8/v8)
-
-[Source](https://cs.chromium.org/chromium/src/v8/src/)
-
+[Project](https://v8.dev/) |
+[GitHub](https://github.com/v8/v8) |
+[Source](https://cs.chromium.org/chromium/src/v8/src/) |
 [Build](https://v8.dev/docs/build)
 
 
@@ -55,20 +76,21 @@ $ tools/dev/gm.py x64.release
 $ out/x64.release/d8
 ```
 
-### TurboFan (V8-JIT Compiler)
+Articles:
+*  [A tour of V8](http://www.jayconrod.com/posts/51/a-tour-of-v8--full-compiler)
 
-[Docs](https://v8.dev/docs/turbofan)
+#### JIT-Compiler: TurboFan
 
+[Docs](https://v8.dev/docs/turbofan) |
 [Blog](https://v8.dev/blog/turbofan-jit)
 
-[Turbolizer (Visualization)](https://github.com/v8/v8/tree/master/tools/turbolizer)
+V8 provides a visualization for TurboFan called [Turbolizer](https://github.com/v8/v8/tree/master/tools/turbolizer)
 
 
 
 ## Firefox (Gecko)
 
-[Project](https://developer.mozilla.org/en-US/docs/Mozilla/Gecko)
-
+[Project](https://developer.mozilla.org/en-US/docs/Mozilla/Gecko) |
 [GitHub](https://github.com/mozilla/gecko-dev)
 
 
@@ -76,10 +98,8 @@ The JavaScript-Engine of Gecko is Spidermonkey.
 
 ### Spidermonkey
 
-[Project](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey)
-
-[Source](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code)
-
+[Project](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey) |
+[Source](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code) |
 [Build](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Build_Documentation)
 
 Build (Ubuntu 18.04):
@@ -99,17 +119,16 @@ $ make -j 6
 $ js/src/js
 ```
 
-### IonMonkey (Spidermonkey-JIT Compiler)
+#### JIT-Compiler: IonMonkey
 
 [Project](https://wiki.mozilla.org/IonMonkey)
 
-[IonGraph (Visualization](https://github.com/sstangl/iongraph)
+Spidermonkey provides a visualization for IonMonkey called [IonGraph](https://github.com/sstangl/iongraph)
 
 
-## Safari (Webkit)
+## [Safari (Webkit)](#safari)
 
-[Project](https://webkit.org/)
-
+[Project](https://webkit.org/) |
 [GitHub](https://github.com/WebKit/webkit)
 
 
@@ -117,10 +136,8 @@ The JavaScript-Engine of Webkit is JavaScriptCore (JSC).
 
 ### JavaScriptCore
 
-[Project](https://developer.apple.com/documentation/javascriptcore)
-
-[Wiki](https://trac.webkit.org/wiki/JavaScriptCore)
-
+[Project](https://developer.apple.com/documentation/javascriptcore) |
+[Wiki](https://trac.webkit.org/wiki/JavaScriptCore) |
 [Source](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore)
 
 
@@ -134,11 +151,11 @@ $ cd WebKitBuild/Release
 $ LD_LIBRARY_PATH=./lib bin/jsc
 ```
 
-### FTL JIT (WebKit-JIT Compiler)
+#### JIT-Compiler: FTL JIT
 
-[Introduction to Webkit's JavaScript JIT Optimizations](https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/)
-
-[Introducing the B3 JIT Compiler](https://webkit.org/blog/5852/introducing-the-b3-jit-compiler/)
+Articles:
+*  [Introduction to Webkit's JavaScript JIT Optimizations](https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/)
+*  [Introducing the B3 JIT Compiler](https://webkit.org/blog/5852/introducing-the-b3-jit-compiler/)
 
 
 
@@ -146,19 +163,16 @@ $ LD_LIBRARY_PATH=./lib bin/jsc
 
 ## Edge (Blink/EdgeHTML)
 
-[Project](https://www.microsoft.com/en-us/windows/microsoft-edge)
-
+[Project](https://www.microsoft.com/en-us/windows/microsoft-edge) |
 [GitHub](https://github.com/MicrosoftEdge)
 
 
 Since Edge switch to Blink and the Chromium Project as its Rendering-Engine, Edge is using v8 for its JavaScript-Engine as well.
 Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the ChakraCore JavaScript-Engine.
 
-## ChakraCore
+### ChakraCore
 
-
-[GitHub](https://github.com/Microsoft/ChakraCore)
-
+[GitHub](https://github.com/Microsoft/ChakraCore) |
 [Build](https://github.com/Microsoft/ChakraCore/wiki/Building-ChakraCore#linux)
 
 Build (Ubuntu 18.04):
@@ -171,9 +185,10 @@ $ ./build.sh --cc=/usr/bin/clang-3.9 --cxx=/usr/bin/clang++-3.9 --arch=amd64 --d
 $ out/Debug/ch
 ```
 
-## Presentations & Other resources
+# Exploitation
 
-* [Javascript Engine Fundamentals](https://mathiasbynens.be/notes/shapes-ics)
+## Exploitation-Overview
+
 * Saelo's phrack article on [Attacking JavaScript-Engines](http://www.phrack.org/papers/attacking_javascript_engines.html)
 * [Awesome-Browser-Exploitation](https://github.com/Escapingbug/awesome-browser-exploit)
 * [Attacking WebKit applications (Slides)](https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf)
@@ -182,9 +197,26 @@ $ out/Debug/ch
     * [Slides](https://saelo.github.io/presentations/blackhat_us_18_attacking_client_side_jit_compilers.pdf)
 
 
-## CTF-Challenges
 
-* Spidermonkey
+## Chromium Pwn
+### CTF-Challenges
+    * 34c3: v9
+        *   [Sources](https://github.com/saelo/v9)
+        *   [WriteUp](https://gist.github.com/itsZN/9ae6417129c6658130a898cdaba8d76c) (Exploit-Script)
+    * 35c3: Krautflare
+        *   [Files](https://abiondo.me/assets/ctf/35c3/krautflare-33ce1021f2353607a9d4cc0af02b0b28.tar)
+        *   [WriteUp](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
+        *   [WriteUp](https://www.jaybosamiya.com/blog/2019/01/02/krautflare/)
+        
+                
+### RealWorld
+* [MobilePwn2Own 2013 - Chrome on Android](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit)
+* https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/
+
+
+
+## Firefox Pwn
+### CTF-Challenges
     * 33c3: Feuerfuchs
         *   [Sources](https://github.com/saelo/feuerfuchs)
         *   [WriteUp](https://bruce30262.github.io/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/)
@@ -195,33 +227,33 @@ $ out/Debug/ch
         *   [WriteUp](https://github.com/Jinmo/ctfs/blob/master/2018/blaze/pwn/blazefox.html) (Exploit-SCript)
     * 35c3 FunFox
         *   [Sources](https://github.com/bkth/35c3ctf/tree/master/funfox) 
-* v8
-    * 34c3: v9
-        *   [Sources](https://github.com/saelo/v9)
-        *   [WriteUp](https://gist.github.com/itsZN/9ae6417129c6658130a898cdaba8d76c) (Exploit-Script)
-    * 35c3: Krautflare
-        *   [Files](https://abiondo.me/assets/ctf/35c3/krautflare-33ce1021f2353607a9d4cc0af02b0b28.tar)
-        *   [WriteUp](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
-        *   [WriteUp](https://www.jaybosamiya.com/blog/2019/01/02/krautflare/)
-* Webkit
+### RealWorld
+* https://saelo.github.io/posts/firefox-script-loader-overflow.html
+
+
+
+## Safari Pwn
+### CTF-Challenges
     *   RealWorldCTF 2018: Engine for Neophytes
         *   [Files](http://mightym0.de/ctf/rwctf-2018/allForPlayers.zip)
     *   35c3: WebKid
         *   [Sources](https://github.com/saelo/35c3ctf/tree/master/WebKid)
         *   [WriteUp](https://github.com/LinusHenze/35C3_Writeups/tree/master/WebKid)
-* ChakraCore
+### RealWorld
+* https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
+
+
+
+
+## Edge Pwn
+### CTF-Challenges
     * Plaid 2017: chakrazy
         *   [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
+### RealWorld
 
-## RealWorld Exploit Write-Ups:
-
-* https://saelo.github.io/posts/firefox-script-loader-overflow.html
-* https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
-* [MobilePwn2Own 2013 - Chrome on Android](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit)
-* https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/
 
  
-## JavaScript (ECMAScript) Docs
+# JavaScript (ECMAScript) Docs
 
 * [Types&Values](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-data-types-and-values)
 * [Objects](http://www.ecma-international.org/ecma-262/6.0/#sec-objects)
