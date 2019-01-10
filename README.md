@@ -234,6 +234,7 @@ $ out/Debug/ch
     *   [Sources](https://github.com/saelo/35c3ctf/tree/master/WebKid)
     *   [WriteUp](https://github.com/LinusHenze/35C3_Writeups/tree/master/WebKid)
 ### RealWorld
+* http://www.phrack.org/papers/attacking_javascript_engines.html
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
 
 
