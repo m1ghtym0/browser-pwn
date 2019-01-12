@@ -148,11 +148,22 @@ $ cd WebKitBuild/Release
 $ LD_LIBRARY_PATH=./lib bin/jsc
 ```
 
-#### JIT-Compiler: FTL JIT
+##### Source
+*    Runtime: [Source/JavaScriptCore/runtime](https://trac.webkit.org/browser/webkit/trunk/Source/JavaScriptCore/runtime)
+
+#### JIT-Compiler: LLInt+ Baseline JIT + DFG JIT + FTL JIT
+
+WebKit has a 4-Layer JIT-Compiler system, representing the tradeoff between overhead performance cost and performance benefit.
 
 Articles:
-*  [Introduction to Webkit's JavaScript JIT Optimizations](https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/)
-*  [Introducing the B3 JIT Compiler](https://webkit.org/blog/5852/introducing-the-b3-jit-compiler/)
+*    [Introduction to Webkit's JavaScript JIT Optimizations](https://webkit.org/blog/3362/introducing-the-webkit-ftl-jit/)
+*    [Introducing the B3 JIT Compiler](https://webkit.org/blog/5852/introducing-the-b3-jit-compiler/)
+
+##### Source
+*    [LLInt (Low Level Interpreter)](https://trac.webkit.org/browser/trunk/Source/JavaScriptCore/llint)
+*    [Baseline JIT](https://trac.webkit.org/browser/trunk/Source/JavaScriptCore/jit)
+*    [DFG JIT (Data Flow Graph JIT)](https://trac.webkit.org/browser/trunk/Source/JavaScriptCore/dfg)
+*    [FTL JIT (Faster Than Light Just In Time compiler)](https://trac.webkit.org/browser/trunk/Source/JavaScriptCore/ftl)
 
 
 
