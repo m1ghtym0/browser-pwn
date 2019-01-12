@@ -98,6 +98,10 @@ The JavaScript-Engine of Gecko is Spidermonkey.
 [Source](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code) |
 [How2Build](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Build_Documentation)
 
+##### Source
+*    [builtin](https://github.com/mozilla/gecko-dev/tree/master/js/src/builtin)
+
+
 Build (Ubuntu 18.04):
 
 ```
@@ -115,8 +119,6 @@ $ make -j 6
 $ js/src/js
 ```
 
-##### Source
-*    [builtin](https://github.com/mozilla/gecko-dev/tree/master/js/src/builtin)
 
 #### JIT-Compiler: IonMonkey
 
@@ -142,8 +144,10 @@ The JavaScript-Engine of Webkit is JavaScriptCore (JSC).
 [Wiki](https://trac.webkit.org/wiki/JavaScriptCore) |
 [Source](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore)
 
+##### Source
+*    Runtime: [Source/JavaScriptCore/runtime](https://trac.webkit.org/browser/webkit/trunk/Source/JavaScriptCore/runtime)
 
-Build (Ubuntu 18.04):
+#### Build (Ubuntu 18.04):
 
 ```
 # sudo apt install libicu-dev python ruby bison flex cmake build-essential ninja-build git gperf
@@ -154,8 +158,6 @@ $ cd WebKitBuild/Release
 $ LD_LIBRARY_PATH=./lib bin/jsc
 ```
 
-##### Source
-*    Runtime: [Source/JavaScriptCore/runtime](https://trac.webkit.org/browser/webkit/trunk/Source/JavaScriptCore/runtime)
 
 #### JIT-Compiler: LLInt+ Baseline JIT + DFG JIT + FTL JIT
 
@@ -189,7 +191,15 @@ Originally, Edge had is own Rendering-Engine called EdgeHTML, which used the Cha
 [GitHub](https://github.com/Microsoft/ChakraCore) |
 [How2Build](https://github.com/Microsoft/ChakraCore/wiki/Building-ChakraCore#linux)
 
-Build (Ubuntu 18.04):
+#### Docs
+*    [Architecture Overview](https://github.com/Microsoft/ChakraCore/wiki/Architecture-Overview)
+
+#### Source
+*    Runtime:  [Types](https://github.com/Microsoft/ChakraCore/tree/master/lib/Runtime/Types)
+*    Runtime: [Language](https://github.com/Microsoft/ChakraCore/tree/master/lib/Runtime/Language)
+
+
+#### Build (Ubuntu 18.04):
 
 ```
 # To build ChakraCore on Linux: (requires Clang 3.7+ and Python 2)
