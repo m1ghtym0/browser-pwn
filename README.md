@@ -140,7 +140,8 @@ The JavaScript-Engine of Webkit is JavaScriptCore (JSC).
 Build (Ubuntu 18.04):
 
 ```
-$ sudo apt install libicu-dev python ruby bison flex cmake build-essential ninja-build git gperf
+# sudo apt install libicu-dev python ruby bison flex cmake build-essential ninja-build git gperf
+$ Tools/gtk/install-dependencies
 $ git clone git://git.webkit.org/WebKit.git && cd WebKit
 $ Tools/Scripts/build-webkit --jsc-only
 $ cd WebKitBuild/Release
