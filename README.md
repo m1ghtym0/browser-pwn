@@ -261,4 +261,4 @@ $ out/Debug/ch
 
 * [Types&Values](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-data-types-and-values)
 * [Objects](http://www.ecma-international.org/ecma-262/6.0/#sec-objects)
-* [Objec-Properties](https://tc39.github.io/ecma262/#sec-property-attributes)
+* [Object-Properties](https://tc39.github.io/ecma262/#sec-property-attributes)
