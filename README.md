@@ -26,6 +26,8 @@ The following is split into two parts:
       *  [Firefox](#firefox-pwn)
       *  [Safari](#safari-pwn)
       *  [Edge](#edge-pwn)
+3. [Tools](#tools)
+4. [JavaScript Docs](#javascript-ecmascript-docs)
       
 
 
@@ -246,7 +248,14 @@ $ out/Debug/ch
     *   [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
 ### RealWorld
 
+# Tools
 
+## Libraries:
+* [pwnjs (A Javascript library for browser exploitation) ](https://github.com/theori-io/pwnjs)
+
+## Utils
+  * [int64.js](https://github.com/saelo/jscpwn/blob/master/int64.js)
+  * [utils.js](https://github.com/saelo/jscpwn/blob/master/utils.js)
  
 # JavaScript (ECMAScript) Docs
 
