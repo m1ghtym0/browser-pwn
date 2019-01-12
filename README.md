@@ -213,12 +213,15 @@ $ out/Debug/ch
 
 ## Exploitation-Overview
 
-* Saelo's phrack article on [Attacking JavaScript-Engines](http://www.phrack.org/papers/attacking_javascript_engines.html)
-* [Awesome-Browser-Exploitation](https://github.com/Escapingbug/awesome-browser-exploit)
-* [Attacking WebKit applications (Slides)](https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf)
-*  Attacking Client-Side JIT Compilers - BlackHat 2018
-    * [Video](https://youtu.be/emt1yf2Fg9g)
-    * [Slides](https://saelo.github.io/presentations/blackhat_us_18_attacking_client_side_jit_compilers.pdf)
+*    Saelo: [Attacking JavaScript-Engines](http://www.phrack.org/papers/attacking_javascript_engines.html)
+*    [Awesome-Browser-Exploitation](https://github.com/Escapingbug/awesome-browser-exploit)
+*    [Attacking WebKit applications (Slides)](https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf)
+*    Saelo Attacking Client-Side JIT Compilers - BlackHat 2018
+     * [Video](https://youtu.be/emt1yf2Fg9g)
+     * [Slides](https://saelo.github.io/presentations/blackhat_us_18_attacking_client_side_jit_compilers.pdf)
+*    j0nathanj: From Zero to ZeroDay (Finding a Chakra Zero Day)
+     *    [Video](https://media.ccc.de/v/35c3-9657-from_zero_to_zero_day)
+          [Slides](https://github.com/j0nathanj/Publications/tree/master/35C3_From_Zero_to_Zero_Day)
 
 
 
