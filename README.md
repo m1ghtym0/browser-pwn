@@ -115,11 +115,17 @@ $ make -j 6
 $ js/src/js
 ```
 
+##### Source
+*    [builtin](https://github.com/mozilla/gecko-dev/tree/master/js/src/builtin)
+
 #### JIT-Compiler: IonMonkey
 
 [Project](https://wiki.mozilla.org/IonMonkey)
 
 Spidermonkey provides a visualization for IonMonkey called [IonGraph](https://github.com/sstangl/iongraph)
+
+##### Source
+*    [jit](https://github.com/mozilla/gecko-dev/tree/master/js/src/jit)
 
 
 ## [Safari (Webkit)](#safari)
