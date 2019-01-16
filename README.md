@@ -37,6 +37,7 @@ The following is split into two parts:
 
 ## Engine-Overview
 * [Javascript Engine Fundamentals](https://mathiasbynens.be/notes/shapes-ics)
+* [JavaScript Engines - how do they even (Video)](https://www.youtube.com/watch?v=p-iiEDtpy6I)
 
 
 ## Chromium (Blink)
