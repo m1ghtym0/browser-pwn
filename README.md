@@ -83,6 +83,13 @@ Articles:
 
 V8 provides a visualization for TurboFan called [Turbolizer](https://github.com/v8/v8/tree/master/tools/turbolizer)
 
+##### Turbolizer usage:
+1.    Run v8 with `--trace-turbo`: `d8 --trace-turbo foo.js`
+2.    Generates json files e.g. `turbo-foo-0.json`
+3.    Goto `v8/tools/turbolizer` and install with npm as described in `README.md`
+4.    Serve directory e.g. `python -m SimpleHTTPServer 8000`
+5.    Browse to `localhost:8000` and open `turbo-foo-0.json`
+
 
 
 ## Firefox (Gecko)
