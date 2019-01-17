@@ -256,6 +256,9 @@ $ out/Debug/ch
 * [MobilePwn2Own 2013 - Chrome on Android](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit)
 * https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/
 
+### Hardening & Mitigations
+* [Heap-hardening](https://struct.github.io/oilpan_metadata.html)
+
 
 
 ## Firefox Pwn
@@ -286,6 +289,9 @@ $ out/Debug/ch
 * http://www.phrack.org/papers/attacking_javascript_engines.html
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
 
+### Hardening & Mitigations
+* [Heap-hardening](https://labs.mwrinfosecurity.com/blog/some-brief-notes-on-webkit-heap-hardening/)
+* CagedPtr [Source](https://github.com/WebKit/webkit/blob/master/Source/WTF/wtf/CagedPtr.h) & [ArrayBuffer Example](https://bugs.webkit.org/show_bug.cgi?id=175515)
 
 
 
