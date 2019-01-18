@@ -39,6 +39,16 @@ The following is split into two parts:
 * [Javascript Engine Fundamentals](https://mathiasbynens.be/notes/shapes-ics)
 * [JavaScript Engines - how do they even (Video)](https://www.youtube.com/watch?v=p-iiEDtpy6I)
 
+### Browse the Sources
+Of course you can use you're own favorite setup to browse the sources.
+However, those repos are relatively large and I tried a couple different setups until I found something that worked for me.
+So if you don't have good setup already, here are a couple of my experiences that might help you:
+*    [CTags](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_eclipse_dev.md) (+Vim): Works well with following references and calls. If you're used to navigate through large source-trees with this puristic setup, it can be a good option for you.
+The downside being of course the lack of the features most of the big IDEs come with nowadays.
+*    [CLion](https://www.jetbrains.com/clion/): I use JetBrain products for a lot of my coding activities, but CLion didn't work well for me, especially following references. Of course this might be due to setup issues.
+*    [Eclipse](https://www.eclipse.org/): I haven't used it in a while, but this turned out to be the best option for me.
+     * [Here](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_eclipse_dev.md) is a setup description for the Chromium-Project, but it works similiarily for the other projects as well.
+
 
 ## Chromium (Blink)
 
