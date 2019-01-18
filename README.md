@@ -46,9 +46,9 @@ So if you don't have good setup already, here are a couple of my experiences tha
 *    [CTags](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_eclipse_dev.md) (+Vim): Works well with following references and calls. If you're used to navigate through large source-trees with this puristic setup, it can be a good option for you.
 The downside being of course the lack of the features most of the big IDEs come with nowadays.
 *    [CLion](https://www.jetbrains.com/clion/): I use JetBrain products for a lot of my coding activities, but CLion didn't work well for me, especially following references. Of course this might be due to setup issues.
-*    [Eclipse](https://www.eclipse.org/): I haven't used it in a while, but this turned out to be the best option for me.
+*    [Eclipse](https://www.eclipse.org/): I haven't used it in a while, but this turned out to be a good option. Unfortunately, it takes a lot of resources for the indexer to run through the code.
      * [Here](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_eclipse_dev.md) is a setup description for the Chromium-Project, but it works similiarily for the other projects as well.
-
+*    [ccls](https://github.com/MaskRay/ccls)+[VSCode](https://code.visualstudio.com/) This is the best option for me so far. ccls is very fast with indexing the repos and works great with VSCode. You can also combine it with other editors and IDEs see https://github.com/MaskRay/ccls/wiki/Editor-Configuration
 
 ## Chromium (Blink)
 
