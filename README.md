@@ -297,6 +297,8 @@ $ out/Debug/ch
     *   [WriteUp](https://github.com/LinusHenze/35C3_Writeups/tree/master/WebKid)
 ### RealWorld
 * http://www.phrack.org/papers/attacking_javascript_engines.html
+     *    [Source])(https://github.com/saelo/jscpwn)
+     *    [WriteUp](https://github.com/m1ghtym0/write-ups/tree/master/browser/CVE-2016-4622)
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
 
 ### Hardening & Mitigations
