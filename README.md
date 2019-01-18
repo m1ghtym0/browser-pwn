@@ -156,7 +156,7 @@ Spidermonkey provides a visualization for IonMonkey called [IonGraph](https://gi
 *    [jit](https://github.com/mozilla/gecko-dev/tree/master/js/src/jit)
 
 
-## [Safari (Webkit)](#safari)
+## Safari (Webkit)
 
 [Project](https://webkit.org/) |
 [GitHub](https://github.com/WebKit/webkit)
