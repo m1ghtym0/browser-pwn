@@ -300,6 +300,9 @@ $ out/Debug/ch
      *    [Source])(https://github.com/saelo/jscpwn)
      *    [WriteUp](https://github.com/m1ghtym0/write-ups/tree/master/browser/CVE-2016-4622)
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
+* https://github.com/saelo/pwn2own2018/tree/master/stage0
+* https://github.com/LinusHenze/WebKit-RegEx-Exploit
+* https://github.com/W00dL3cs/exploit_playground/tree/master/JavaScriptCore
 
 ### Hardening & Mitigations
 * [Heap-hardening](https://labs.mwrinfosecurity.com/blog/some-brief-notes-on-webkit-heap-hardening/)
@@ -310,7 +313,9 @@ $ out/Debug/ch
 ## Edge Pwn
 ### CTF-Challenges
 * Plaid 2017: chakrazy
-    *   [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
+    * [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
+* N1CTF 2018: Chakra
+     * [Files](https://github.com/Nu1LCTF/n1ctf-2018/tree/master/challenges/pwn/Chakra)
 ### RealWorld
 
 # Tools
