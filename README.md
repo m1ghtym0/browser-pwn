@@ -47,7 +47,7 @@ So if you don't have good setup already, here are a couple of my experiences tha
 The downside being of course the lack of the features most of the big IDEs come with nowadays.
 *    [CLion](https://www.jetbrains.com/clion/): I use JetBrain products for a lot of my coding activities, but CLion didn't work well for me, especially following references. Of course this might be due to setup issues.
 *    [Eclipse](https://www.eclipse.org/): I haven't used it in a while, but this turned out to be a good option. Unfortunately, it takes a lot of resources for the indexer to run through the code.
-     * [Here](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_eclipse_dev.md) is a setup description for the Chromium-Project, but it works similiarily for the other projects as well.
+     * [Here](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_eclipse_dev.md) is a setup description for the Chromium-Project, but it works similarly for the other projects as well.
 *    [ccls](https://github.com/MaskRay/ccls)+[VSCode](https://code.visualstudio.com/) This is the best option for me so far. ccls is very fast with indexing the repos and works great with VSCode. You can also combine it with other editors and IDEs see https://github.com/MaskRay/ccls/wiki/Editor-Configuration
 
 ## Chromium (Blink)
@@ -280,7 +280,7 @@ $ out/Debug/ch
     *   [Sources](https://ctftime.org/task/6000)
     *   [WriteUp](https://devcraft.io/2018/04/27/blazefox-blaze-ctf-2018.html)
     *   [WriteUp](https://gist.github.com/niklasb/4bddc9e8f32c3bd277ed26d66d488834) (Exploit-Script)
-    *   [WriteUp](https://github.com/Jinmo/ctfs/blob/master/2018/blaze/pwn/blazefox.html) (Exploit-SCript)
+    *   [WriteUp](https://github.com/Jinmo/ctfs/blob/master/2018/blaze/pwn/blazefox.html) (Exploit-Script)
 * 35c3 FunFox
     *   [Sources](https://github.com/bkth/35c3ctf/tree/master/funfox) 
 ### RealWorld
