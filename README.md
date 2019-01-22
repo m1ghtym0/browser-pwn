@@ -266,8 +266,10 @@ $ out/Debug/ch
      *  [Files](https://github.com/m1ghtym0/write-ups/tree/master/browser/plaid-2018-roll-a-dice)
      *  [WriteUp](https://gist.github.com/saelo/52985fe415ca576c94fc3f1975dbe837)
      *  [WriteUp](https://ctftime.org/writeup/9999)
-* Google CTF Finals 2018: Pwn just in time
+* Google CTF Finals 2018: Just In Time
      *  [Files+WriteUp](https://github.com/google/google-ctf/tree/master/2018/finals/pwn-just-in-time)
+     *  [Slides](https://github.com/google/google-ctf/blob/master/2018/finals/solutions.pdf)
+     *  [WriteUp](https://xz.aliyun.com/t/3348)
                 
 ### RealWorld
 * [MobilePwn2Own 2013 - Chrome on Android](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit)
