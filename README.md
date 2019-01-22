@@ -260,7 +260,12 @@ $ out/Debug/ch
     *   [Files](https://abiondo.me/assets/ctf/35c3/krautflare-33ce1021f2353607a9d4cc0af02b0b28.tar)
     *   [WriteUp](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
     *   [WriteUp](https://www.jaybosamiya.com/blog/2019/01/02/krautflare/)
-        
+* CSAW-Finals-2018: ES1337
+     *  [Files+WriteUp](https://github.com/osirislab/CSAW-CTF-2018-Finals/tree/master/pwn/ES1337)
+* Plaid CTF 2018: Roll a dice
+     *  [Files](https://github.com/m1ghtym0/write-ups/tree/master/browser/plaid-2018-roll-a-dice)
+     *  [WriteUp](https://gist.github.com/saelo/52985fe415ca576c94fc3f1975dbe837)
+     *  [WriteUp](https://ctftime.org/writeup/9999)
                 
 ### RealWorld
 * [MobilePwn2Own 2013 - Chrome on Android](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit)
@@ -276,7 +281,7 @@ $ out/Debug/ch
 * 33c3: Feuerfuchs
     *   [Sources](https://github.com/saelo/feuerfuchs)
     *   [WriteUp](https://bruce30262.github.io/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/)
-*   Blaze 2018: blazefox
+* Blaze 2018: blazefox
     *   [Sources](https://ctftime.org/task/6000)
     *   [WriteUp](https://devcraft.io/2018/04/27/blazefox-blaze-ctf-2018.html)
     *   [WriteUp](https://gist.github.com/niklasb/4bddc9e8f32c3bd277ed26d66d488834) (Exploit-Script)
@@ -290,15 +295,16 @@ $ out/Debug/ch
 
 ## Safari Pwn
 ### CTF-Challenges
-*   RealWorldCTF 2018: Engine for Neophytes
+* RealWorldCTF 2018: Engine for Neophytes
     *   [Files](http://mightym0.de/ctf/rwctf-2018/allForPlayers.zip)
-*   35c3: WebKid
+* 35c3: WebKid
     *   [Sources](https://github.com/saelo/35c3ctf/tree/master/WebKid)
     *   [WriteUp](https://github.com/LinusHenze/35C3_Writeups/tree/master/WebKid)
 ### RealWorld
 * http://www.phrack.org/papers/attacking_javascript_engines.html
      *    [Source])(https://github.com/saelo/jscpwn)
      *    [WriteUp](https://github.com/m1ghtym0/write-ups/tree/master/browser/CVE-2016-4622)
+* [CVE-2017-2446 WriteUp](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/)
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
 * https://github.com/saelo/pwn2own2018/tree/master/stage0
 * https://github.com/LinusHenze/WebKit-RegEx-Exploit
