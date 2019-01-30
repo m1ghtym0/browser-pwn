@@ -285,6 +285,7 @@ $ out/Debug/ch
 * 33c3: Feuerfuchs
     *   [Sources](https://github.com/saelo/feuerfuchs)
     *   [WriteUp](https://bruce30262.github.io/Learning-browser-exploitation-via-33C3-CTF-feuerfuchs-challenge/)
+    *   [WriteUp+Build](https://github.com/m1ghtym0/write-ups/tree/master/browser/33c3ctf-feuerfuchs)
 * Blaze 2018: blazefox
     *   [Sources](https://ctftime.org/task/6000)
     *   [WriteUp](https://devcraft.io/2018/04/27/blazefox-blaze-ctf-2018.html)
@@ -307,7 +308,7 @@ $ out/Debug/ch
 ### RealWorld
 * http://www.phrack.org/papers/attacking_javascript_engines.html
      *    [Source])(https://github.com/saelo/jscpwn)
-     *    [WriteUp](https://github.com/m1ghtym0/write-ups/tree/master/browser/CVE-2016-4622)
+     *    [WriteUp+Build](https://github.com/m1ghtym0/write-ups/tree/master/browser/CVE-2016-4622)
 * [CVE-2017-2446 WriteUp](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/)
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
 * https://github.com/saelo/pwn2own2018/tree/master/stage0
