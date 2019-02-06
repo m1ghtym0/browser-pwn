@@ -101,6 +101,10 @@ Articles:
 
 V8 provides a visualization for TurboFan called [Turbolizer](https://github.com/v8/v8/tree/master/tools/turbolizer)
 
+Articles:
+
+* [Introduction to TurboFan](https://doar-e.github.io/blog/2019/01/28/introduction-to-turbofan/)
+
 ##### Turbolizer usage:
 1.    Run v8 with `--trace-turbo`: `d8 --trace-turbo foo.js`
 2.    Generates json files e.g. `turbo-foo-0.json`
