@@ -285,6 +285,11 @@ $ out/Debug/ch
 
 
 ## Firefox Pwn
+### Articles
+
+* [Playing around with SpiderMonkey](https://vigneshsrao.github.io/play-with-spidermonkey/)
+* [OR'LYEH? The Shadow over Firefox](http://www.phrack.org/issues/69/14.html)
+
 ### CTF-Challenges
 * 33c3: Feuerfuchs
     *   [Sources](https://github.com/saelo/feuerfuchs)
@@ -311,7 +316,7 @@ $ out/Debug/ch
     *   [WriteUp](https://github.com/LinusHenze/35C3_Writeups/tree/master/WebKid)
 ### RealWorld
 * http://www.phrack.org/papers/attacking_javascript_engines.html
-     *    [Source])(https://github.com/saelo/jscpwn)
+     *    [Source](https://github.com/saelo/jscpwn)
      *    [WriteUp+Build](https://github.com/m1ghtym0/write-ups/tree/master/browser/CVE-2016-4622)
 * [CVE-2017-2446 WriteUp](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/)
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
@@ -342,6 +347,8 @@ $ out/Debug/ch
   * [int64.js](https://github.com/saelo/jscpwn/blob/master/int64.js)
   * [utils.js](https://github.com/saelo/jscpwn/blob/master/utils.js)
  
+## Debugging
+*    [shadow](https://github.com/CENSUS/shadow) jemalloc heap exploitation framework (heap allocator used by Firefox)
 # JavaScript (ECMAScript) Docs
 
 * [Types&Values](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-data-types-and-values)
