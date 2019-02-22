@@ -304,7 +304,7 @@ $ out/Debug/ch
 * 35c3 FunFox
     *   [Sources](https://github.com/bkth/35c3ctf/tree/master/funfox) 
 ### RealWorld
-* Use-after-free in Spidermonkey
+* Use-after-free in Spidermonkey (Beta 53)
      * [Article](https://phoenhex.re/2017-06-21/firefox-structuredclone-refleak#turning-a-use-after-free-into-a-readwrite-primitive)
      * [Talk](https://www.youtube.com/watch?v=D_9EFWYnBik)
      * [Slides](https://grehack.fr/data/2017/slides/GreHack17_Get_the_Spidermonkey_off_your_back.pdf)
