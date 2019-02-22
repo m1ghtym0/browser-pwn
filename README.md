@@ -300,9 +300,14 @@ $ out/Debug/ch
     *   [WriteUp](https://devcraft.io/2018/04/27/blazefox-blaze-ctf-2018.html)
     *   [WriteUp](https://gist.github.com/niklasb/4bddc9e8f32c3bd277ed26d66d488834) (Exploit-Script)
     *   [WriteUp](https://github.com/Jinmo/ctfs/blob/master/2018/blaze/pwn/blazefox.html) (Exploit-Script)
+    *   [Build+WriteUp](https://github.com/m1ghtym0/write-ups/tree/master/browser/blaze-ctf-2018-blazefox)
 * 35c3 FunFox
     *   [Sources](https://github.com/bkth/35c3ctf/tree/master/funfox) 
 ### RealWorld
+* Use-after-free in Spidermonkey
+     * [Article](https://phoenhex.re/2017-06-21/firefox-structuredclone-refleak#turning-a-use-after-free-into-a-readwrite-primitive)
+     * [Talk](https://www.youtube.com/watch?v=D_9EFWYnBik)
+     * [Slides](https://grehack.fr/data/2017/slides/GreHack17_Get_the_Spidermonkey_off_your_back.pdf)
 * https://saelo.github.io/posts/firefox-script-loader-overflow.html
 
 
