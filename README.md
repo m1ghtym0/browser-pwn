@@ -323,6 +323,7 @@ $ out/Debug/ch
 * http://www.phrack.org/papers/attacking_javascript_engines.html
      *    [Source](https://github.com/saelo/jscpwn)
      *    [WriteUp+Build](https://github.com/m1ghtym0/write-ups/tree/master/browser/CVE-2016-4622)
+* [Fuzzing Webkit and analysis of CVE-2019-8375](https://www.inputzero.io/2019/02/fuzzing-webkit.html)
 * [CVE-2017-2446 WriteUp](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/)
 * https://saelo.github.io/posts/jsc-typedarray.slice-infoleak.html
 * https://github.com/saelo/pwn2own2018/tree/master/stage0
