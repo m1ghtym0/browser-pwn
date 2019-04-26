@@ -175,6 +175,9 @@ The JavaScript-Engine of Webkit is JavaScriptCore (JSC).
 [Wiki](https://trac.webkit.org/wiki/JavaScriptCore) |
 [Source](https://github.com/WebKit/webkit/tree/master/Source/JavaScriptCore)
 
+Articles:
+*    http://www.filpizlo.com/papers.html
+
 ##### Source
 *    Runtime: [Source/JavaScriptCore/runtime](https://trac.webkit.org/browser/webkit/trunk/Source/JavaScriptCore/runtime)
 
