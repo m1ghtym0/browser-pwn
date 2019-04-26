@@ -247,12 +247,15 @@ $ out/Debug/ch
 *    Saelo: [Attacking JavaScript-Engines](http://www.phrack.org/papers/attacking_javascript_engines.html)
 *    [Awesome-Browser-Exploitation](https://github.com/Escapingbug/awesome-browser-exploit)
 *    [Attacking WebKit applications (Slides)](https://cansecwest.com/slides/2015/Liang_CanSecWest2015.pdf)
-*    Saelo Attacking Client-Side JIT Compilers - BlackHat 2018
+*    Saelo: Attacking Client-Side JIT Compilers - BlackHat 2018
      * [Video](https://youtu.be/emt1yf2Fg9g)
      * [Slides](https://saelo.github.io/presentations/blackhat_us_18_attacking_client_side_jit_compilers.pdf)
 *    j0nathanj: From Zero to ZeroDay (Finding a Chakra Zero Day)
      *    [Video](https://media.ccc.de/v/35c3-9657-from_zero_to_zero_day)
           [Slides](https://github.com/j0nathanj/Publications/tree/master/35C3_From_Zero_to_Zero_Day)
+*    Saelo: Fuzzili - (Guided-)fuzzing for JavaScript engines
+     * [Video](https://www.youtube.com/watch?v=OHjq9Y66yfc)
+     * [Slides](https://saelo.github.io/presentations/offensivecon_19_fuzzilli.pdf)
 
 
 
@@ -279,6 +282,9 @@ $ out/Debug/ch
 ### RealWorld
 * [MobilePwn2Own 2013 - Chrome on Android](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit)
 * https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/
+* niklasb: Chrome IPC Exploitation
+     * [Video](https://www.youtube.com/watch?v=MMxtKq8UgwE)
+     * [Slides](https://github.com/phoenhex/files/blob/master/slides/chrome_ipc_exploitation_offensivecon19.pdf)
 
 ### Hardening & Mitigations
 * [Heap-hardening](https://struct.github.io/oilpan_metadata.html)
@@ -344,6 +350,9 @@ $ out/Debug/ch
 * N1CTF 2018: Chakra
      * [Files](https://github.com/Nu1LCTF/n1ctf-2018/tree/master/challenges/pwn/Chakra)
 ### RealWorld
+* bkth: Attacking Edge Through the JavaScript-Compiler
+     * [Video](https://www.youtube.com/watch?v=r4J7Zu1RV40)
+     * [Slides](https://github.com/bkth/Attacking-Edge-Through-the-JavaScript-Compiler)
 
 # Tools
 
