@@ -36,7 +36,8 @@ The following is split into two parts:
 # Engines
 
 ## Engine-Overview
-* [Javascript Engine Fundamentals](https://mathiasbynens.be/notes/shapes-ics)
+* [Javascript Engine Fundamentals: the good, the bad, and the ugly](https://slidr.io/bmeurer/javascript-engine-fundamentals-the-good-the-bad-and-the-ugly)
+* [Javascript Engine Fundamentals: Shapes and Inline Caches](https://mathiasbynens.be/notes/shapes-ics)
 * [JavaScript Engines - how do they even (Video)](https://www.youtube.com/watch?v=p-iiEDtpy6I)
 
 ### Browse the Sources
