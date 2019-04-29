@@ -281,6 +281,11 @@ $ out/Debug/ch
      *  [Files+WriteUp](https://github.com/google/google-ctf/tree/master/2018/finals/pwn-just-in-time)
      *  [Slides](https://github.com/google/google-ctf/blob/master/2018/finals/solutions.pdf)
      *  [WriteUp](https://xz.aliyun.com/t/3348)
+* *CTF 2019: oob-v8
+     *  [Files](https://github.com/Changochen/CTF/raw/master/2019/*ctf/Chrome.tar.gz)
+     *  [WriteUp](https://changochen.github.io/2019-04-29-starctf-2019.html)
+     *  [WriteUp](https://github.com/vngkv123/aSiagaming/blob/master/Chrome-v8-oob/README.md)
+     *  [WriteUp](https://github.com/alstjr4192/BGazuaaaaa/blob/master/*CTF%202019%20oob/pwn.js)
                 
 ### RealWorld
 * [MobilePwn2Own 2013 - Chrome on Android](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit)
