@@ -294,6 +294,7 @@ $ out/Debug/ch
      * [Video](https://www.youtube.com/watch?v=MMxtKq8UgwE)
      * [Slides](https://github.com/phoenhex/files/blob/master/slides/chrome_ipc_exploitation_offensivecon19.pdf)
 * [CVE-2019-5782 Write-Up](https://github.com/vngkv123/aSiagaming/tree/master/Chrome-v8-906043)
+* [CVE-2019-5790](https://labs.bluefrostsecurity.de/blog/2019/04/29/dont-follow-the-masses-bug-hunting-in-javascript-engines/)
 
 ### Hardening & Mitigations
 * [Heap-hardening](https://struct.github.io/oilpan_metadata.html)
