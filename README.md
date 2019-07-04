@@ -329,7 +329,8 @@ $ out/Debug/ch
      * [Talk](https://www.youtube.com/watch?v=D_9EFWYnBik)
      * [Slides](https://grehack.fr/data/2017/slides/GreHack17_Get_the_Spidermonkey_off_your_back.pdf)
 * https://saelo.github.io/posts/firefox-script-loader-overflow.html
-
+* Use-after-free in SpiderMonkey (64.0a1)
+     * [Article](https://www.zerodayinitiative.com/blog/2019/7/1/the-left-branch-less-travelled-a-story-of-a-mozilla-firefox-use-after-free-vulnerability)
 
 
 ## Safari Pwn
