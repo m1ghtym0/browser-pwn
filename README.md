@@ -366,6 +366,8 @@ $ out/Debug/ch
     * [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
 * N1CTF 2018: Chakra
      * [Files](https://github.com/Nu1LCTF/n1ctf-2018/tree/master/challenges/pwn/Chakra)
+* RealWorldCTF Quals 2019: Appetizer
+     * [Files](https://github.com/m1ghtym0/write-ups/tree/master/browser/realworldctf-quals-2019-appetizer)
 ### RealWorld
 * bkth: Attacking Edge Through the JavaScript-Compiler
      * [Video](https://www.youtube.com/watch?v=r4J7Zu1RV40)
