@@ -305,7 +305,7 @@ $ out/Debug/ch
      * [Slides](https://github.com/phoenhex/files/blob/master/slides/chrome_ipc_exploitation_offensivecon19.pdf)
 * [CVE-2019-5782 Write-Up](https://github.com/vngkv123/aSiagaming/tree/master/Chrome-v8-906043)
 * [CVE-2019-5790](https://labs.bluefrostsecurity.de/blog/2019/04/29/dont-follow-the-masses-bug-hunting-in-javascript-engines/)
-
+* [CVE-2019-5786 Chrome Remote Code Execution Vulnerability Analysis](https://www.weibo.com/ttarticle/p/show?id=2309404351596157885398)
 
 
 ### Hardening & Mitigations
@@ -372,7 +372,15 @@ $ out/Debug/ch
 
 
 
-## Edge Pwn
+## Edge 
+
+### Articles
+
+* bkth: [Tale of Chakra Bugs](https://github.com/bkth/Tale-Of-Chakra-Bugs)
+* bkth: Attacking Edge Through the JavaScript-Compiler
+     * [Video](https://www.youtube.com/watch?v=r4J7Zu1RV40)
+     * [Slides](https://github.com/bkth/Attacking-Edge-Through-the-JavaScript-Compiler)
+
 ### CTF-Challenges
 * Plaid 2017: chakrazy
     * [WriteUp](https://bruce30262.github.io/Chakrazy-exploiting-type-confusion-bug-in-ChakraCore/)
@@ -385,9 +393,7 @@ $ out/Debug/ch
      * [WriteUp](https://balsn.tw/ctf_writeup/20190906-trendmicroctfqual/#400)
      * [Exploit](https://gist.github.com/itszn/3277e8aa56c91f8296d88d25d96df717)
 ### RealWorld
-* bkth: Attacking Edge Through the JavaScript-Compiler
-     * [Video](https://www.youtube.com/watch?v=r4J7Zu1RV40)
-     * [Slides](https://github.com/bkth/Attacking-Edge-Through-the-JavaScript-Compiler)
+* bkth, S0rryMyBad: [Non JIT Bug, JIT Exploit](https://phoenhex.re/2019-05-15/non-jit-bug-jit-exploit)
 
 # Tools
 
