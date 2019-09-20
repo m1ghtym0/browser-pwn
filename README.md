@@ -263,6 +263,13 @@ $ out/Debug/ch
 
 
 ## Chromium Pwn
+
+### Articles
+* [Exploiting TurboFan Through Bounds Check Elimination](https://gts3.org/2019/turbofan-BCE-exploit.html)
+* saelo: Exploiting Logic Bugs in JavaScript JIT Engines
+     * [Phrack Article](http://phrack.org/papers/jit_exploitation.html)
+     * [41con 19' slides](https://saelo.github.io/presentations/41con_19_jit_exploitation_tricks.pdf)
+
 ### CTF-Challenges
 * 34c3: v9
     *   [Sources](https://github.com/saelo/v9)
@@ -298,9 +305,8 @@ $ out/Debug/ch
      * [Slides](https://github.com/phoenhex/files/blob/master/slides/chrome_ipc_exploitation_offensivecon19.pdf)
 * [CVE-2019-5782 Write-Up](https://github.com/vngkv123/aSiagaming/tree/master/Chrome-v8-906043)
 * [CVE-2019-5790](https://labs.bluefrostsecurity.de/blog/2019/04/29/dont-follow-the-masses-bug-hunting-in-javascript-engines/)
-* saelo: Exploiting Logic Bugs in JavaScript JIT Engines
-     * [Phrack Article](http://phrack.org/papers/jit_exploitation.html)
-     * [41con 19' slides](https://saelo.github.io/presentations/41con_19_jit_exploitation_tricks.pdf)
+
+
 
 ### Hardening & Mitigations
 * [Heap-hardening](https://struct.github.io/oilpan_metadata.html)
@@ -312,6 +318,7 @@ $ out/Debug/ch
 
 * [Playing around with SpiderMonkey](https://vigneshsrao.github.io/play-with-spidermonkey/)
 * [OR'LYEH? The Shadow over Firefox](http://www.phrack.org/issues/69/14.html)
+* [A journey into IonMonkey: root-causing CVE-2019-9810](https://doar-e.github.io/blog/2019/06/17/a-journey-into-ionmonkey-root-causing-cve-2019-9810/)
 
 ### CTF-Challenges
 * 33c3: Feuerfuchs
