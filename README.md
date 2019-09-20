@@ -327,6 +327,8 @@ $ out/Debug/ch
 * 35c3 FunFox
     *   [Sources](https://github.com/bkth/35c3ctf/tree/master/funfox) 
 ### RealWorld
+* Introduction to SpiderMonkey exploitation
+     * [Article](https://doar-e.github.io/blog/2018/11/19/introduction-to-spidermonkey-exploitation/)
 * Use-after-free in Spidermonkey (Beta 53)
      * [Article](https://phoenhex.re/2017-06-21/firefox-structuredclone-refleak#turning-a-use-after-free-into-a-readwrite-primitive)
      * [Talk](https://www.youtube.com/watch?v=D_9EFWYnBik)
@@ -334,6 +336,9 @@ $ out/Debug/ch
 * https://saelo.github.io/posts/firefox-script-loader-overflow.html
 * Use-after-free in SpiderMonkey (64.0a1)
      * [Article](https://www.zerodayinitiative.com/blog/2019/7/1/the-left-branch-less-travelled-a-story-of-a-mozilla-firefox-use-after-free-vulnerability)
+* CVE-2019-11707 Type Confusion
+     * [WriteUp](https://blog.bi0s.in/2019/08/18/Pwn/Browser-Exploitation/cve-2019-11707-writeup/)
+     * [Report](https://bugs.chromium.org/p/project-zero/issues/detail?id=1820)
 
 
 ## Safari Pwn
