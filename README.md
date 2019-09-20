@@ -368,6 +368,10 @@ $ out/Debug/ch
      * [Files](https://github.com/Nu1LCTF/n1ctf-2018/tree/master/challenges/pwn/Chakra)
 * RealWorldCTF Quals 2019: Appetizer
      * [Files](https://github.com/m1ghtym0/write-ups/tree/master/browser/realworldctf-quals-2019-appetizer)
+* Trend Micro CTF 2019: ChakraCore 400
+     * [WriteUp](https://theromanxpl0it.github.io/articles/2019/09/09/Trend-Micro-CTF-ChakraCore-JIT-exploitation.html)
+     * [WriteUp](https://balsn.tw/ctf_writeup/20190906-trendmicroctfqual/#400)
+     * [Exploit](https://gist.github.com/itszn/3277e8aa56c91f8296d88d25d96df717)
 ### RealWorld
 * bkth: Attacking Edge Through the JavaScript-Compiler
      * [Video](https://www.youtube.com/watch?v=r4J7Zu1RV40)
