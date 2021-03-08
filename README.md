@@ -316,7 +316,7 @@ $ out/Debug/ch
 ## Firefox Pwn
 ### Articles
 
-* [Playing around with SpiderMonkey](https://vigneshsrao.github.io/play-with-spidermonkey/)
+* [Playing around with SpiderMonkey](https://vigneshsrao.github.io/posts/play-with-spidermonkey/)
 * [OR'LYEH? The Shadow over Firefox](http://www.phrack.org/issues/69/14.html)
 * [A journey into IonMonkey: root-causing CVE-2019-9810](https://doar-e.github.io/blog/2019/06/17/a-journey-into-ionmonkey-root-causing-cve-2019-9810/)
 
